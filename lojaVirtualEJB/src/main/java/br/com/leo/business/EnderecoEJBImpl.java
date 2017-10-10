@@ -10,6 +10,7 @@ import br.com.leo.entity.Endereco;
  * @author Leonaldo 
  * 
  * EJB do Endereço do cliente
+ * Armazenará as regras de negocios inerentes ao endereço
  * 
  * Exemplo lookup portável
  * EnderecoEJB enderecoEJB = (EnderecoEJB) new InitialContext().lookup("java:app/web/ejb/Endereco");
