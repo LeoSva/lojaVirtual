@@ -13,7 +13,7 @@ public class ClienteEJBImpl implements ClienteEJB {
 	private ClienteDAO clienteDAO;
 	
 	@Override
-	public Cliente findById(int idCliente) throws Exception {
+	public Cliente findById( int idCliente ) throws Exception {
 		
 		try{
 			return clienteDAO.findById( idCliente );
