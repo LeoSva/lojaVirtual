@@ -7,7 +7,9 @@ import br.com.leo.dao.EnderecoDAO;
 import br.com.leo.entity.Endereco;
 
 /**
- * @author Leonaldo
+ * @author Leonaldo 
+ * 
+ * EJB do Endereco
  * 
  * Exemplo lookup portável
  * EnderecoEJB enderecoEJB = (EnderecoEJB) new InitialContext().lookup("java:app/web/ejb/Endereco");
